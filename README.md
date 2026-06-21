@@ -72,7 +72,7 @@ Donne à votre assistant IA des yeux et des mains sur votre propre graphique :
 
 Collez ceci dans Claude Code et il s'occupera du reste :
 
-> Installe le serveur MCP TradingView. Clone https://github.com/VOTRE-NOM-UTILISATEUR/tradingview-mcp.git, exécute npm install, ajoute-le à ma config MCP dans ~/.claude/.mcp.json, et lance TradingView avec le port de debug. Puis vérifie la connexion avec tv_health_check.
+> Installe le serveur MCP TradingView. Clone https://github.com/josh75/tradingview-mcp.git, exécute npm install, ajoute-le à ma config MCP dans ~/.claude/.mcp.json, et lance TradingView avec le port de debug. Puis vérifie la connexion avec tv_health_check.
 
 Ou suivez les étapes manuelles ci-dessous.
 
@@ -81,7 +81,7 @@ Ou suivez les étapes manuelles ci-dessous.
 ### 1. Installation
 
 ```bash
-git clone https://github.com/VOTRE-NOM-UTILISATEUR/tradingview-mcp.git
+git clone https://github.com/josh75/tradingview-mcp.git
 cd tradingview-mcp
 npm install
 ```
